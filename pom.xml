@@ -12,9 +12,9 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <kotlin.version>1.2.71</kotlin.version>
+        <kotlin.version>1.1.51</kotlin.version>
         <junit.version>4.12</junit.version>
-        <spark.version>2.9.1</spark.version>
+        <spark.version>2.6.0</spark.version>
         <log4j.version>1.7.21</log4j.version>
         <container-spark.version>0.7</container-spark.version>
         <java-core.version>1.1.0</java-core.version>
@@ -74,7 +74,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
-                <version>2.2</version>
+                <version>3.2.0</version>
                 <configuration>
                     <createDependencyReducedPom>false</createDependencyReducedPom>
                 </configuration>
